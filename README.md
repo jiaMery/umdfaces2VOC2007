@@ -14,6 +14,10 @@ cv2.imwrite(IMGSTORE+jpg_file,img,[int(cv2.IMWRITE_JPEG_QUALITY),95])
 
 以上的修改，已经完全覆盖了caffe/SSD初期数据准备，详情可见我的博客：http://blog.csdn.net/sinat_26917383/article/details/68068113
 
+- 实际转换过程中出现的问题：
+umdfaces_batch1文件中，好像很多图像都是没有的。其他两个umdfaces_batch2、umdfaces_batch3也有较少的图像没有。大概最后我实践的图像集有22W+的图像。
+80%训练集，20%测试集。
+
 Mattzheng 2017-5-4
 
 
