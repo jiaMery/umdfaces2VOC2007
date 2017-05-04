@@ -21,8 +21,9 @@ umdfaces_batch1文件中，好像很多图像都是没有的。
 大概最后我实践的图像集有22W+的图像。
 80%训练集，20%测试集。
 
-- 整个方法一个缺陷：一个图只标注了一个物体
+- 整个方法+数据集的缺陷：一个图只标注了一个物体;图像较多的是写真（非真实环境）
 如果图像中有多个人脸，那么只默认标注概率最高的一个
+![picture](https://github.com/mattzheng/umdfaces2VOC2007/blob/master/JPEGImages/3000018.jpg)
 
 Mattzheng 2017-5-4
 
