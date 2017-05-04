@@ -1,9 +1,14 @@
 # umdfaces2VOC2007
 ##Mattzheng 注明
+
 forked from luuuyi，其中test.py内容需要进行修正。
+
 新增了图像另存到文件夹:JPEGImages的功能：
+
 cv2.imwrite(IMGSTORE+jpg_file,img,[int(cv2.IMWRITE_JPEG_QUALITY),95])
+
 同时，原作者本来base=3000000这里，如果第二个文件夹开跑就需要另外的起点base，需要注意。
+
 Mattzheng 2017-5-4
 
 ## Description
