@@ -47,7 +47,3 @@ trusted-host = pypi.douban.com
 ```
 
 之后就可以愉快的下载python模块了
-
-## Contact
-* 邮件(21515006#zju.edu.cn, 把#换成@)
-* QQ: 435977170
