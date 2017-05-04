@@ -60,7 +60,7 @@ if __name__ == "__main__":
             #print 'xmin: %d \nymin: %d \nxmax: %d \nymax: %d' %(xmin,ymin,xmax,ymax)
     
             transf = dict()
-            transf['folder'] = "FACE2016"
+            transf['folder'] = "VOC2007"
             transf['filename'] = jpg_file
             transf['width'] = str(width)
             transf['height'] = str(height)
