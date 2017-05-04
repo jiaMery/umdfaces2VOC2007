@@ -23,7 +23,7 @@ def createXML(trans,store_path):
     flickrid = etree.SubElement(owner, "flickrid")   
     flickrid.text = "NULL"
     name = etree.SubElement(owner, "name")   
-    name.text = "luuuyi"
+    name.text = "matt"
 
     size = etree.SubElement(annotation, "size")   
     width = etree.SubElement(size, "width")   
