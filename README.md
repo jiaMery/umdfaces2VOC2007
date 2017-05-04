@@ -10,9 +10,15 @@ cv2.imwrite(IMGSTORE+jpg_file,img,[int(cv2.IMWRITE_JPEG_QUALITY),95])
 ```
 * 同时，原作者本来base=3000000这里，如果第二个文件夹开跑就需要另外的起点base，需要注意。
 
+* 新增了ImageSets.py专门为第三个文件夹准备
+
+以上的修改，已经完全覆盖了caffe/SSD初期数据准备，详情可见我的博客：http://blog.csdn.net/sinat_26917383/article/details/68068113
+
 Mattzheng 2017-5-4
 
-## Description
+
+
+## 原作者的描述Luuuyi
 将umdfaces数据库做成VOC2007格式，方便深度学习训练，umdfaces数据库的下载地址为：[umdfaces](http://www.umdfaces.io/)
 
 项目一共包含三个脚本文件：
